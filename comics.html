@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсовая</title>
+    <link rel="icon"  type="image/png" href="book-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="animate_min.css"/>
+</head>
+<body>
+  <header>
+    <div class="header_top">
+        <a href="index.html" title="Читай книги и наслаждайся жизнью">
+            <img class="logo" src="book-icon.png" alt="Логотип">
+            <h1 class="Shop_name">Книжный</h1>
+        </a>
+        <form name="search">
+            <input class="button_search" type="text" placeholder="Поиск по книжному магазину...">
+            <button class="button_search" form="search" type="submit"><img id="lupa" src="lup.png" alt=""></button>
+        </form>
+        <div id="basket"><img src="basket.png" atl="Корзина"></div>
+    </div>
+    <br>
+        <nav>
+            <div class="burger"><div class="area_click"><span></span></div></div>
+            <a class = "s" href="book.html">Книги</a>
+            <a class = "s" href="">Графическая литературы</a>
+            <a class = "s" href="present.html">Контакты</a>
+            <div class="nav_block_input">
+                <a class = "s" href="inter.html">Вход</a>
+                <a class = "s" href="register.html">Регистрация</a>
+            </div>
+        </nav>
+    </header> 
+    <main>
+        <section>
+            <div class="genre_blook comics_title">
+                <h2 class="genre_title genre_text">Графическая литературы</h2>
+                <p class="genre_content genre_text">Добро пожаловать в часть нашего магазина с графической литературой, здесь вы найдёте разнообразные произведения на любой вкус</p>
+            </div>
+        </section>
+        <section class="comics_block_with_slide">
+            <div class="comics_text">
+                <p>Американские комиксы - вид графической литературы, появившийся в США в 1842. Самыми популярными его представителями являются комиксы о супергероях (Marvel, DC), но также встречаются графические новеллы и графические романы, отличающиеся большим объемом. </p>
+            </div>
+            <img src="page_comics/amirican_slide.jpg" class="comics_slide_img  wow fadeInRight">
+        </section>
+        <section class="section_title_and_book">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/american/batman.jpg" alt="">
+                        <div class="name_book">Бэтмен. Год первый</div>
+                        <div class="autor_book">Миллер Ф.</div>
+                        <div class="price_book">920 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/american/harli.jpg" alt="">
+                        <div class="name_book">Безумная Харли Квинн</div>
+                        <div class="autor_book">Фараго Э.</div>
+                        <div class="price_book">1600 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/american/pauk.jpg" alt="">
+                        <div class="name_book">Классика Marvel. Удивительный Человек-Паук.</div>
+                        <div class="autor_book">Ли С.</div>
+                        <div class="price_book">1300 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/american/inju.jpg" alt="">
+                        <div class="name_book">Injustice. Боги среди нас. Год первый. </div>
+                        <div class="autor_book">Тэйлор Т.</div>
+                        <div class="price_book">1500 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/american/v.jpg" alt="">
+                        <div class="name_book">V – значит Vендетта</div>
+                        <div class="autor_book">Мур А. Ллойд Д.</div>
+                        <div class="price_book">2200 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="comics_block_with_slide">
+            <div class="comics_text comics_text_rev">
+                <p>Франко-бельгийские комиксы (BDs) - это комиксы, появившиеся в 1837 и изначально написанные на французском языке и созданные для читателей во Франции и Бельгии. Особенностью этого вида является четкое разграничение по возрастам, существует как детские, так и взрослые комиксы.</p>
+            </div>
+            <img src="page_comics/belg_slide.jpg" class="comics_slide_img comics_slide_img_rev wow fadeInLeft">
+        </section>
+        <section class="section_title_and_book">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/franco/sateri.jpg" alt="">
+                        <div class="name_book">Астерикс: Золотой серп</div>
+                        <div class="autor_book">Госинни Р. Удерзо А.</div>
+                        <div class="price_book">450 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/franco/rekviem.jpg" alt="">
+                        <div class="name_book">Реквием. Рыцарь вампир. Воскрешение. Пляска Смерти</div>
+                        <div class="autor_book">Миллс П. Ледруа О.</div>
+                        <div class="price_book">1100 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/franco/blacks.jpg" alt="">
+                        <div class="name_book">Блэксэд: Красная душа. Ад безмолвия</div>
+                        <div class="autor_book">Гуарнидо Д.</div>
+                        <div class="price_book">1190 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/franco/karma.jpg" alt="">
+                        <div class="name_book">Красная карма</div>
+                        <div class="autor_book">Симон Э.</div>
+                        <div class="price_book">2000 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/franco/prick.jpg" alt="">
+                        <div class="name_book">Приключения Эрже, создателя Тинтина</div>
+                        <div class="autor_book">Боке Фроменталь Станислас</div>
+                        <div class="price_book">1000 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+
+        <section class="comics_block_with_slide">
+            <div class="comics_text">
+                <p>Манга - это комиксы или графические романы, происходящие из Японии и созданные в едином стиле, который опирается на раннее японское искусство. Произведения читаются справа налево или «задом наперёд», если сравнивать их с привычными нам книгами. Часто манга рисуется и издаётся чёрно-белой.</p>
+            </div>
+            <img src="page_comics/manga_slide.webp" class="comics_slide_img wow fadeInRight">
+        </section>
+        <section class="section_title_and_book">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/japan/alhim.jpg" alt="">
+                        <div class="name_book">Стальной Алхимик. Книга 1</div>
+                        <div class="autor_book">Аракава Х.</div>
+                        <div class="price_book">990 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/japan/peace.jpg" alt="">
+                        <div class="name_book">One Piece. Книга 1</div>
+                        <div class="autor_book">Ода Э.</div>
+                        <div class="price_book">933 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/japan/titan.jpg" alt="">
+                        <div class="name_book">Атака на титанов. Книга 1</div>
+                        <div class="autor_book">Исаяма Х.</div>
+                        <div class="price_book">770 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/japan/demon.jpg" alt="">
+                        <div class="name_book">Истребитель демонов</div>
+                        <div class="autor_book">Готогэ К.</div>
+                        <div class="price_book">694 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                    <div class="swiper-slide block_with_one_book">
+                        <img class="skin_book" src="page_comics/japan/gospo.jpg" alt="">
+                        <div class="name_book">Госпожа Кагуя</div>
+                        <div class="autor_book">Акасака А.</div>
+                        <div class="price_book">950 &#8381;</div>
+                        <button class="button_pay">Купить</button>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    
+    </main>
+    <footer class="index_footer">
+        <h2 class="H">О нас: </h2>
+        <div class="Us">Создатель - Егоркин Евгений, ИКБО-01-21. Мы компания занимающаяся продажей книг и комиксов в городе Москве. У нас большой ассоримент книг, комиксов и подарков. Ждем вас по адресу Георгиевский пер. 24, Москва</div>
+        <a class="foot_a B1" href="index.html">Ссылка на магазин</a><br>
+        <a class="foot_a B2" href="present.html">Подробная информация</a><br>
+        <a class="foot_a B3" href = "tel:89532886786">89532886786</a>
+        <a class="foot_a B4" href = "mailto:Max32rus37@yandex.ru">Max32rus37@yandex.ru</a>
+    </footer>
+    <script src="wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
